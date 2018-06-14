@@ -30,7 +30,10 @@ void main()
 
 			if (n == 1)
 			{
+				SetConsoleTextAttribute(hConsole, 13);
 				printf("Забудьте о музыке\n");
+				SetConsoleTextAttribute(hConsole, 15);
+
 			}
 
 			else if (n == 0)
@@ -51,13 +54,17 @@ void main()
 
 						if (n==0)
 						{
+							SetConsoleTextAttribute(hConsole, 11);
 							printf("Альт\n");
+							SetConsoleTextAttribute(hConsole, 15);
 							
 						}
 
 						else if (n == 1)
 						{
+							SetConsoleTextAttribute(hConsole, 11);
 							printf("Арфа\n");
+							SetConsoleTextAttribute(hConsole, 15);
 						}
 
 					}
@@ -69,12 +76,16 @@ void main()
 
 						if (n==1)
 						{
+							SetConsoleTextAttribute(hConsole, 11);
 							printf("Флейта\n");
+							SetConsoleTextAttribute(hConsole, 15);
 						}
 
 						else if (n == 0)
 						{
+							SetConsoleTextAttribute(hConsole, 11);
 							printf("Скрипка\n");
+							SetConsoleTextAttribute(hConsole, 15);
 						}
 					}
 				}
@@ -90,11 +101,15 @@ void main()
 
 						if (n == 1)
 						{
+							SetConsoleTextAttribute(hConsole, 11);
 							printf("Виолончель.\n");
+							SetConsoleTextAttribute(hConsole, 15);
 						}
 						else if (n == 0)
 						{
+							SetConsoleTextAttribute(hConsole, 11);
 							printf("Домра.\n");
+							SetConsoleTextAttribute(hConsole, 15);
 						}
 					}
 
@@ -105,7 +120,9 @@ void main()
 
 						if (n == 3)
 						{
+							SetConsoleTextAttribute(hConsole, 11);
 							printf("Тромбон.\n");
+							SetConsoleTextAttribute(hConsole, 15);
 						}
 
 						else if (n == 1)
@@ -115,7 +132,9 @@ void main()
 
 							if (n == 1)
 							{
+								SetConsoleTextAttribute(hConsole, 11);
 								printf("Гобой.\n");
+								SetConsoleTextAttribute(hConsole, 15);
 							}
 
 							else if (n == 0)
@@ -125,12 +144,16 @@ void main()
 
 								if (n == 1)
 								{
+									SetConsoleTextAttribute(hConsole, 11);
 									printf("Кларнет.\n");
+									SetConsoleTextAttribute(hConsole, 15);
 								}
 
 								else if (n == 0)
 								{
+									SetConsoleTextAttribute(hConsole, 11);
 									printf("Валторна.\n");
+									SetConsoleTextAttribute(hConsole, 15);
 								}
 							}
 						}
@@ -142,7 +165,9 @@ void main()
 
 							if (n == 1)
 							{
+								SetConsoleTextAttribute(hConsole, 11);
 								printf("Саксофон.\n");
+								SetConsoleTextAttribute(hConsole, 15);
 							}
 
 							else if (n == 0)
@@ -152,11 +177,15 @@ void main()
 
 								if (n == 1)
 								{
+									SetConsoleTextAttribute(hConsole, 11);
 									printf("Труба.\n");
+									SetConsoleTextAttribute(hConsole, 15);
 								}
 								else if (n == 0)
 								{
+									SetConsoleTextAttribute(hConsole, 11);
 									printf("Дудук.\n");
+									SetConsoleTextAttribute(hConsole, 15);
 								}
 							}
 						}
@@ -189,7 +218,9 @@ void main()
 
 			if (n == 0)
 			{
+				SetConsoleTextAttribute(hConsole, 11);
 				printf("Фагот.\n");
+				SetConsoleTextAttribute(hConsole, 15);
 			}
 
 			else if (n == 1)
@@ -199,12 +230,16 @@ void main()
 
 				if (n == 1)
 				{
+					SetConsoleTextAttribute(hConsole, 11);
 					printf("Оперный певец.\n");
+					SetConsoleTextAttribute(hConsole, 15);
 				}
 
 				else if (n == 0)
 				{
+					SetConsoleTextAttribute(hConsole, 11);
 					printf("Ударные.\n");
+					SetConsoleTextAttribute(hConsole, 15);
 				}
 			}
 		}
@@ -221,12 +256,16 @@ void main()
 
 				if (n == 1)
 				{
+					SetConsoleTextAttribute(hConsole, 11);
 					printf("Оперный певец.\n");
+					SetConsoleTextAttribute(hConsole, 15);
 				}
 
 				else if (n == 0)
 				{
+					SetConsoleTextAttribute(hConsole, 11);
 					printf("Ударные.\n");
+					SetConsoleTextAttribute(hConsole, 15);
 				}
 			}
 
@@ -237,12 +276,16 @@ void main()
 
 				if (n == 1)
 				{
+					SetConsoleTextAttribute(hConsole, 11);
 					printf("Гитара.\n");
+					SetConsoleTextAttribute(hConsole, 15);
 				}
 
 				else if (n == 0)
 				{
+					SetConsoleTextAttribute(hConsole, 11);
 					printf("Фортепиано.\n");
+					SetConsoleTextAttribute(hConsole, 15);
 				}
 			}
 		}
